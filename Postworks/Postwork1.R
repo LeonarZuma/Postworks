@@ -1,6 +1,6 @@
 getwd()
-setwd("C:/Users/leona/Documents/Bedu/Data/")
-futbol.1920 <- read.csv("SP1.csv")
+setwd("C:/Users/leona/Documents/Bedu/Tarea/Postworks/PostWok1")
+futbol.1920 <- read.csv("SP1 .csv")
 
 suppressMessages(suppressWarnings(library(dplyr)))
 ft.red<-subset(futbol.1920,select=c(FTHG,FTAG))

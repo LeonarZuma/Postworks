@@ -1,6 +1,6 @@
 getwd()
 library(dplyr)
-setwd("C:/Users/leona/Documents/Bedu/Data/Postworks/Postwork2/")
+setwd("C:/Users/leona/Documents/Bedu/Tarea/Postworks/Postwork2")
 dir()
 #Parte 1
 Fut.com <- lapply(dir(), read.csv)
