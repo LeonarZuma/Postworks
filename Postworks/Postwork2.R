@@ -24,7 +24,8 @@ Fut.red[[3]]<-mutate(Fut.red[[3]],Date = as.Date(Date))
 
 class((Fut.red[[1]]$Date))
 Fut.fin<-rbind(Fut.red[[1]],Fut.red[[2]],Fut.red[[3]])
-
+str(Fut.red[[1]])
+    
 #Ayuda del Postwork 3
 setwd("C:/Users/leona/Documents/Bedu/Data/Postworks/Postwork3/")
 write.csv(Fut.fin,'Fut1720.csv')
