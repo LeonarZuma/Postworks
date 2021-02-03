@@ -41,3 +41,4 @@ plot(Match.ts,
      main = "Match Goals TS", 
      xlab = "Tiempo",
      sub = "Enero de 1985 - Diciembre de 2019")
+

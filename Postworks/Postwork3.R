@@ -2,6 +2,7 @@ library(dplyr)
 library(ggplot2)
 #Lectura de datos e inicialización de variables principales
 getwd()
+
 setwd("C:/Users/leona/Documents/Bedu/Tarea/Postworks/Postwork3")
 dir()
 Fut.com <- read.csv("Fut1720.csv")
